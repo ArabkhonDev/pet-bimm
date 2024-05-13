@@ -1,0 +1,173 @@
+
+
+
+header {
+  background-color: #4caf50;
+  width: 100%;
+padding: 10px;
+}
+
+header .nav-btn {
+  padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+nav {
+  color: white;
+}
+
+.nav_main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+z-index: 2;
+
+}
+
+.navbar_logo:hover {
+  cursor: pointer;
+}
+
+
+.navbar_links_items, .nav_main_links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_links_items p {
+  padding: 10px;
+}
+
+.navbar_links_items p:hover {
+  cursor: pointer;
+}
+
+.dropbtn {
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.navbar_links_dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4caf50;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(201, 226, 201);
+}
+
+.navbar_links_dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  padding: 0px;
+}
+
+.navbar_contact_icon_links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_link_icons {
+  display: flex;
+}
+
+.navbar_link_icons li {
+  padding: 10px;
+}
+
+.navbar_link_icons li:hover {
+  cursor: pointer;
+}
+
+.menubar{
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.menubar:hover{
+  cursor: pointer;
+  border-color: transparent;
+}
+
+
+.navbar-toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 550px) {
+
+  .navbar_links_dropdown:hover .dropdown-content {
+  transform: translate(100px, -80px);   
+  }
+
+  .navbar_links, .navbar_contact_icon_links{
+    z-index: 2;
+    width: 100%;
+    transform: translate(-100px, -17px);
+  }
+
+  .nav_main_links, .nav_main_links.active{
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    padding: 1rem 0;
+    position: relative;
+    flex-direction: column;
+    top: 50px;
+    border-radius: 5px;
+  }
+  .nav_main_links {
+    display: none;
+  }
+
+  .nav_main_links.active {
+    display: block;
+  }
+
+  .navbar_links_items{
+    display: block;
+  }
+
+  .navbar_links_items a:hover p{
+    transition: all ease .5s;
+    background-color: #ccc;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+}
