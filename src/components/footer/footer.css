@@ -1,11 +1,11 @@
 footer{
     transform:translateY(50px);
     width: 100%;
-    background-image: linear-gradient(to left, green, grey);
+    background-color: var(--mainBgColor);
+    bottom: 10px;
 }
 
 .footer_top{
-    
     width: 100%;
     display: flex;
     justify-content: space-between;

@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 import { BsTelephoneOutbound } from "react-icons/bs";
+import {Link} from 'react-router-dom';
 
 import "./footer.css";
 
@@ -22,13 +23,13 @@ const Footer = () => {
           <div className="footer_top">
             <div className="footer_social_info">
               <div className="footer_social_info_logo">
-                <a href="#">
+                <Link to="#">
                   <img
-                    src={Logo}
-                    alt="footer_logo"
+                    src="#"
+                    alt="BIIM"
                     className="footer_social_info_logo_img"
                   />
-                </a>
+                </Link>
               </div>
               <div className="footer_social_info_content">
                 <p className="footer_social_info_content_text">
@@ -39,21 +40,21 @@ const Footer = () => {
               <div className="footer_social_info_icons">
                 <h2 className="footer_social_info_icons_title">Follow Us</h2>
                 <div className="footer_social_info_icons_items">
-                  <a href="#" className="footer_social_info_icon_item icon-f">
+                  <Link to="#" className="footer_social_info_icon_item icon-f">
                     <FaFacebookF />
-                  </a>
-                  <a href="#" className="footer_social_info_icon_item icon-g">
+                  </Link>
+                  <Link to="#" className="footer_social_info_icon_item icon-g">
                     <FaGooglePlusG />
-                  </a>
-                  <a href="#" className="footer_social_info_icon_item icon-in">
+                  </Link>
+                  <Link to="#" className="footer_social_info_icon_item icon-in">
                     <FaInstagram />
-                  </a>
-                  <a href="#" className="footer_social_info_icon_item icon-ln">
+                  </Link>
+                  <Link to="#" className="footer_social_info_icon_item icon-ln">
                     <FaLinkedinIn />
-                  </a>
-                  <a href="#" className="footer_social_info_icon_item icon-tw">
+                  </Link>
+                  <Link to="#" className="footer_social_info_icon_item icon-tw">
                     <FaTwitter />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -61,30 +62,30 @@ const Footer = () => {
               <div className="footer_top_links_pages">
                 <p className="footer_top_links_title">Useful links</p>
                 <div className="footer_top_links_item">
-                  <a href="#">Home</a>
-                  <a href="#">About</a>
-                  <a href="#">Contact</a>
-                  <a href="#">Service</a>
-                  <a href="#">Policy</a>
-                  <a href="#">Resourses</a>
-                  <a href="#">FAQ</a>
-                  <a href="#">News</a>
+                  <Link to="/">Home</Link>
+                  <Link to="/about">About</Link>
+                  <Link to="/contact">Contact</Link>
+                  <Link to="#">Service</Link>
+                  <Link to="#">Policy</Link>
+                  <Link to="#">Resourses</Link>
+                  <Link to="#">FAQ</Link>
+                  <Link to="#">Gallary</Link>
                 </div>
               </div>
             </div>
             <div className="footer_contact_info">
               <div className="footer_contact_info_address">
-                <a href="https://www.google.com/maps/place/Tashkent+State+Agrarian+University/@41.3624981,69.3395614,17z/data=!3m1!4b1!4m6!3m5!1s0x38aef3840f7be271:0xdb32d0828ee7ab8c!8m2!3d41.3624941!4d69.3421363!16s%2Fm%2F0130_k_d?entry=ttu" target="_blank">
+                <Link to="https://www.google.com/maps/place/Tashkent+State+Agrarian+University/@41.3624981,69.3395614,17z/data=!3m1!4b1!4m6!3m5!1s0x38aef3840f7be271:0xdb32d0828ee7ab8c!8m2!3d41.3624941!4d69.3421363!16s%2Fm%2F0130_k_d?entry=ttu" target="_blank">
                 <FaMapMarkedAlt />
                   <span className="footer_contact_info_address">Manzil: 100140, Toshkent vil. Qibray tumani, Universitet
                   ko‘chasi, 2-uy</span>
-                </a>
+                </Link>
               </div>
               <div className="footer_contact_info_tel">
-                <a href="tel:+998771000089">
+                <Link to="tel:+998771000089">
                   <BsTelephoneOutbound />
                   <span className="footer_contact_info_tel_number">998 77 100 00 89</span>
-                </a>
+                </Link>
               </div>
               <form action="#" method="get">
                 <input type="email" name="send_email_info" placeholder="Email Address" className="send_email_info_input" />
@@ -99,16 +100,16 @@ const Footer = () => {
             <div className="footer_bottom_section">
               <div className="footer_bottom_section_title">
                 All Right Reserved By{" "}
-                <a href="#">
+                <Link to="#">
                   <b>MDIS Group</b>
-                </a>
+                </Link>
               </div>
               <div className="footer_bottom_section_links">
                 <div className="footer_bottom_section_link_item">
-                  <a href="#">Home</a>
-                  <a href="#">Terms</a>
-                  <a href="#">Policy</a>
-                  <a href="#">Contact</a>
+                  <Link to="/">Home</Link>
+                  <Link to="#">Terms</Link>
+                  <Link to="#">Policy</Link>
+                  <Link to="/contact">Contact</Link>
                 </div>
               </div>
             </div>

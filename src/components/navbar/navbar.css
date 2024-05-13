@@ -2,7 +2,7 @@
 
 
 header {
-  background-color: #4caf50;
+  background-color: var(--mainBgColor);
   width: 100%;
 padding: 10px;
 }
@@ -130,7 +130,7 @@ z-index: 2;
 @media (max-width: 550px) {
 
   .navbar_links_dropdown:hover .dropdown-content {
-  transform: translate(100px, -80px);   
+  transform: translate(180px, -80px);   
   }
 
   .navbar_links, .navbar_contact_icon_links{

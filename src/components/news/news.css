@@ -22,6 +22,7 @@
 }
 
 .news_item{
+    margin: 15px 0px;
     width: 250px;
     text-align: center;
 }

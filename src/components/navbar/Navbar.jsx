@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="nav_main">
             <div className="navbar_logo">
               <Link to="/">
-                <span>Agrar Universitet</span>
+                <span>Bosh Ilmiy-Metodik Markaz</span>
               </Link>
             </div>
             <div
@@ -34,35 +34,43 @@ const Navbar = () => {
             >
               <div className="navbar_links">
                 <div className="navbar_links_items">
-                  <Link to="/bimm">
-                    <p>BIMM</p>
-                  </Link>
-                  <Link to="about">
-                    <p>About</p>
+                  <Link to="https://pet-project-kappa.vercel.app/">
+                    <p>Home</p>
                   </Link>
                   <div class="navbar_links_dropdown">
-                    <button class="dropbtn">Resurslar</button>
+                    <button class="dropbtn">BIMM</button>
                     <div class="dropdown-content">
-                      <a href="#"> Bosh ilmiy-metodik markaz</a>
-                      <a href="#"> Elektron Kutubxona</a>
-                      <a href="#">Grafik Dizayn</a>
-                      <a href="#">Digital Marketing</a>
+                    <Link to="/about">Markaz xaqida</Link>
+                    <Link to="/raxbariyat">Raxbariyat</Link>
+                    <Link to="#">Markaz Tuzilmasi</Link>
+                    <Link to="#">Markaz Apparari</Link>
+                    <Link to="#">Malaka oshirish markazi </Link>
+                    <Link to="#">Gender tenglik</Link>
                     </div>
                   </div>
                   <div class="navbar_links_dropdown">
-                    <button class="dropbtn">Pricing</button>
+                    <button class="dropbtn">Axborot xizmati</button>
                     <div class="dropdown-content">
-                      <a href="#"> Raxbariyat</a>
-                      <a href="#"> Elektron Kutubxona</a>
-                      <a href="#">Grafik Dizayn</a>
-                      <a href="#">Digital Marketing</a>
+                    <Link to="#">Yangiliklar</Link>
+                    <Link to="#">Ommaviy Tadbirlar</Link>
+                    <Link to="#">Elonlar</Link>
+                    <Link to="#">Savol va javob</Link>
                     </div>
                   </div>
-                  <Link to="/blog">
-                    <p>Blog</p>
+                  <div class="navbar_links_dropdown">
+                    <button class="dropbtn">Xujjatlar</button>
+                    <div class="dropdown-content">
+                    <Link to="#"> Qonunlar</Link>
+                    <Link to="#"> Prezident farmon va namoyishlari</Link>
+                    <Link to="#"> Xukumat qaror va farmonlari</Link>
+                    <Link to="#"> Markaz maqolalari</Link>
+                    </div>
+                  </div>
+                  <Link to="/kengash">
+                    <p>Ilmiy Metodik Kengash</p>
                   </Link>
-                  <Link to="/contact">
-                    <p>Contact</p>
+                  <Link to="/managment">
+                    <p>Innovation Managment</p>
                   </Link>
                 </div>
               </div>

@@ -9,6 +9,10 @@ import Home from "../pages/home/Home";
 import NoPage from "../pages/noPage/NoPages";
 import { Blog } from "../pages/blog/Blog";
 import { Contact } from "../pages/contact/Contact";
+import { Raxbariyat } from "../pages/raxbariyat/Raxbariyat";
+import { Info } from "../components/raxbariyat/info/Info";
+import { Work } from "../components/raxbariyat/work/Work";
+import { Task } from "../components/raxbariyat/task/Task";
 
 const Allroute = () => {
   return (
@@ -24,14 +28,19 @@ const Allroute = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/kengash" element={<Blog />} />
+        <Route path="/raxbariyat" element={<Raxbariyat />}>
+          <Route index element={<Info />} />
+          <Route path="info" element={<Info />} />
+          <Route path="work" element={<Work />} />
+          <Route path="task" element={<Task />} />
+        </Route>
+        <Route path="/managment" element={<Contact />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
       <Footer />
     </>
   );
 };
-
 
 export default Allroute;

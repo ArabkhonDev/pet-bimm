@@ -26,7 +26,7 @@ export function getNews() {
 			title: 'Bizness xamkorlar, Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quas',
 			Image: newsImage4
 		},
-      /*   {
+       {
 			id: 5,
 			title: 'Bizness xamkorlar',
 			Image: newsImage1
@@ -46,7 +46,7 @@ export function getNews() {
 			title: 'Bizness xamkorlar',
 			Image: newsImage1
 		},
-*/
+
 		
 	];
 }
