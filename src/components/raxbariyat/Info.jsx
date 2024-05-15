@@ -1,5 +1,4 @@
-
-import img1 from '../../../assets/img/news/latestNews.jpg';
+import img1 from "../../assets/img/news/latestNews.jpg";
 
 export const Info = () => {
   return (
@@ -12,15 +11,14 @@ export const Info = () => {
             </div>
             <div className="info_main_detail_text">
               <li>
-                <h2>
-Umarov Iskandar Gayratovich</h2>
+                <h4>Umarov Iskandar Gayratovich</h4>
               </li>
               <li>
                 <p>Boshqaruv Raisi v. b.</p>
               </li>
               <li>
                 <a href="mailto:priemnaya-pp@ammofos-maxam.uz">
-                  mail:  priemnaya-pp@ammofos-maxam.uz
+                  mail: priemnaya-pp@ammofos-maxam.uz
                 </a>
               </li>
               <li>

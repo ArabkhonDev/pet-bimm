@@ -18,9 +18,9 @@ export const Task = () => {
                 holda, unga ishonib topshirilgan buyruqlarning bajarilishini o'z
                 vaqtida va samarali ravishda ta'minlash;
               </li>
-              <h3>
+              <p>
                 Shaxsiy masalalar bo'yicha fuqarolarni qabul qilish vaqti:
-              </h3>
+              </p>
               <li>Oyning 1 va 3 chorshanba kunlari soat 16:00 dan;</li>
               <li>
                 Ro'yxatdan o'tish telefoni: 3-78 (ichki raqam), (+99871)

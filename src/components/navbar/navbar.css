@@ -66,14 +66,14 @@ z-index: 2;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #4caf50;
+  background-color: rgba(0, 0, 0, 0.8);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: #ccc;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -81,6 +81,7 @@ z-index: 2;
 
 .dropdown-content a:hover {
   background-color: rgb(201, 226, 201);
+  color: #000;
 }
 
 .navbar_links_dropdown:hover .dropdown-content {

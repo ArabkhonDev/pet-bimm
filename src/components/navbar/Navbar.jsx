@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="nav_main">
             <div className="navbar_logo">
               <Link to="/">
-                <span>Bosh Ilmiy-Metodik Markaz</span>
+                <span>Agrar Malaka Markazi</span>
               </Link>
             </div>
             <div
@@ -35,7 +35,7 @@ const Navbar = () => {
               <div className="navbar_links">
                 <div className="navbar_links_items">
                   <Link to="https://pet-project-kappa.vercel.app/">
-                    <p>Home</p>
+                    <p>Agrar</p>
                   </Link>
                   <div class="navbar_links_dropdown">
                     <button class="dropbtn">BIMM</button>

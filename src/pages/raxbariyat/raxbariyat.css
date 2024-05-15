@@ -1,55 +1,105 @@
-.raxbariyat_collects{
-    background-color: #c76767;
+.raxbariyat_title {
+  text-align: center;
+  margin: 20px 10px;
+  font-size: 32px;
 }
 
 
-.raxbariyat_collect_item a{
-    transition: all  ease .5s;
-    padding: 3px 15px;
+
+.person_info_btns{
+  display: block;
+  text-align: start;
 }
 
-.raxbariyat_collect_item a:hover{
-    background-color: var(--mainBgColor);
+.person_info_btns button{
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  text-transform: capitalize;
 }
 
-.raxbariyat_title{
-    text-align: center;
-    margin: 20px 10px;
-    font-size: 32px;
+.person_info_btns button:focus{
+  background-color: red;
 }
 
-.info_main_detail{
-    gap: 10px;
-    background-color: #ccc;
-    padding: 15px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.info_main{
+  height: 250px;
+  border: 2ps solid;
 }
 
-.info_main_detail_img{
-    width: 180px;
-    height: 200px;
+.info_main, .task_main, .work_main{
+  border: 1x solid #2c0707;
+  background-color: #ccc;
 }
 
-.info_main_detail_img img{
-    margin: 15px 0px;
-    width: 100%;
-    height: 100%;
+.info_main_detail {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.info_main_detail_text a{
-    color: black;
+.info_main_detail_img {
+  width: 200px;
+  height: 150px;
 }
 
-.info_main_detail_text li{
-    margin: 15px 0px;
+.info_main_detail_img img {
+  width: 100%;
 }
+
+.info_main_detail_text{
+  text-align: start;
+  padding-left: 15px;
+}
+
+.info_main_detail_text h4{
+  font-size: 25px;
+}
+
+.info_main_detail_text li p {
+  font-size: 20px;
+}
+
+.info_main_detail_text li a {
+  color: black;
+  font-size: 20px;
+}
+
 
 .work_main_info{
-    gap: 20px;
+  padding: 20px;
+  text-align: start;
 }
 
-.work_detail{
-    padding: 20px auto;
+.work_main_info h2{
+  font-size: 20px;
+}
+
+.work_main_info ol li{
+  font-size: 16px;
+  list-style: decimal;
+  line-height: 25px;
+}
+
+
+
+.task_main_info ol li{
+  padding: 15px 10px;
+  font-size: 16px;
+  text-align: start;
+}
+
+.task_main_info ol p{
+  padding: 5px 10px;
+  font-size: 18px;
+  text-align: start;
+  font-weight: bold;
+}
+
+@media (max-widht: 550px) {
+  .info_main_detail {
+    display: block;
+    background-color: red;
+  }
 }
