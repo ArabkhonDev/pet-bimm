@@ -4,7 +4,9 @@
   font-size: 32px;
 }
 
-
+.users_item_list a{
+  color: #2c0707;
+}
 
 .person_info_btns{
   display: block;

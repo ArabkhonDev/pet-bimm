@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="nav_main">
             <div className="navbar_logo">
               <Link to="/">
-                <span>Agrar Malaka Markazi</span>
+                <span id="navbar_logo">Agrar Malaka Markazi</span>
               </Link>
             </div>
             <div
@@ -41,6 +41,7 @@ const Navbar = () => {
                     <button class="dropbtn">BIMM</button>
                     <div class="dropdown-content">
                     <Link to="/about">Markaz xaqida</Link>
+                    <Link to="/contact">Contact</Link>
                     <Link to="/raxbariyat">Raxbariyat</Link>
                     <Link to="#">Markaz Tuzilmasi</Link>
                     <Link to="#">Markaz Apparari</Link>
