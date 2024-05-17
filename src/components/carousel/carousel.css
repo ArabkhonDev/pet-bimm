@@ -28,3 +28,9 @@
 .carouse_img{
   width: 500px;
 }
+
+@media(max-width: 550px){
+.swiper-slide img {
+  transform: scale(0.6);
+}
+}
